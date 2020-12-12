@@ -1,0 +1,102 @@
+#ad {
+    background-color: deeppink; width: 100%; height: 40px;
+}
+#nav {
+    background-color: white; width: 100%; height: 60px;
+}
+#navUl{
+    display: block; float: right;
+}
+.navLi {
+    display: block; float: left; border: ridge; font-size: xx-large;
+}
+
+#mainWrapper{
+    background-color:white; width: 100%; height: 150vh;
+
+}
+#margin{
+    background-color: white; width: 80%; height: inherit;
+    margin: 0 auto; padding: 10px 0;
+}
+#main{
+    width: 100%;height: 50%; background-color: wihte;
+}
+#main1Li{
+    display: block; box-sizing: border-box; padding-top: 50px;
+    text-align: center; font-size: xx-large; font-weight: 900;
+    margin-bottom: 100px;
+}
+#main2Li{
+    display: block; box-sizing: border-box; 
+    text-align: center; font-size: x-large;
+}
+
+#contentWrapper{
+    background-color: white; width: 100%; height: 520px;
+}
+.feature{
+    background-color: white; border: white 3px solid; box-sizing: border-box;
+    width: 25%; height: 50%; float: left;
+}
+.feature_icon{
+    background-color: aqua; width: 100px; height: 120px;
+}
+.feature_text{
+    display: block;
+}
+.feature_text_head{
+    font-size: 20px; margin-bottom: 30; font-weight: 700;
+    box-sizing: border-box; display: block;
+}
+.feature_text_text{
+    font-size: 16px; font-weight: 400;
+    box-sizing: border-box; display: block;
+
+}
+#slider1{
+    background-color:whitesmoke; width: 100%; height: 450px;
+}
+#slider_content{
+    background-color: 43; width: 300px; height: 150px;
+    
+}
+
+#slider2{
+    background-color: purple; width: 100%; height: 620px;
+}
+
+#contentBox{
+    background-color: white; width: 100%; height: 263px;
+}
+#contentBox_head{
+    display: block; font-size: 50px; font-weight: 800;
+    text-align: center; margin-top: 30px; margin-bottom: 80px;
+}
+#contentBox_content{
+    display: block; font-size: 20px; font-weight: 400;
+    text-align: center;
+
+}
+#footer{
+    background-color: midnightblue; height: 300px; width: 100%;
+}
+.footerWrapper{
+    background-color: inherit; height: 316px; width: 25%; float: left;
+    border: white 1px solid; box-sizing: border-box;
+    padding-left: 20px; color: paleturquoise;
+
+}
+#footer_logo{
+    background-color: teal; width: 100px; height: 80px; margin-bottom: 20px;margin-top: 20px;
+
+}
+.footer_header{
+    display: block; font-weight: 700; font-size: 30px; margin-top: 40px; margin-bottom: 40px;
+    color: mintcream;
+}
+.footer_content{
+    display: block; margin: 0 0 15px 10px; font-size: 20px;
+    color: paleturquoise;
+}
+

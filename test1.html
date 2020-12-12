@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./test1.css">
+        
+    </head>
+    <body>
+        <!-- <div id="menu">
+
+        </div> -->
+        <div id="main">
+            <div id='subMain1'>
+                <div id='subSubMain1'>
+
+                </div>
+                <div  id='subSubMain2'>
+
+                </div>
+                <div  id='subSubMain3'>
+
+                </div>
+            </div>
+            <div id='subMain2'>
+                <div  id='subSubMain4'>
+
+                </div>
+                <div  id='subSubMain5'>
+
+                </div>
+                <div  id='subSubMain6'>
+
+                </div>
+            </div>
+        </div>
+        <div id="main2">
+            <video src='http://www.tomodevel.jp/material/video/disneyTour.mp4' controls></video>
+        </div>
+    </body>
+    <script>
+        let testArr = [1,2,3,'5'];
+
+        const question = [
+            {
+                quest: 'sdfsafsafsafas',
+                answer: true,
+                score: 5,
+            },
+        ]
+
+        testArr.push('testdfe');
+
+        
+
+        const humanArr = [];
+        let age = 1;
+        for(let j = 0; j < 5; j++){
+            let humanObj = {
+            age,
+            name: '김태형',
+            gender: '남',
+            alive : true,
+            on() {
+                console.log('hihihi');
+            }
+            }
+         
+            humanArr.push(humanObj);
+            age += 1;
+        }
+
+        console.log(humanArr);
+
+        for(let i = 0; i < humanArr.length; i++){
+            // if(i === '1') { console.log(testArr[i]); }
+            document.getElementById('subMain1').append(`이름: ${humanArr[i].name} , 나이: ${humanArr[i].age}`);
+        }
+
+        
+      
+
+        console.log(testArr);
+    </script>
+</html>
